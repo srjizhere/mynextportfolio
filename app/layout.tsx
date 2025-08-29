@@ -11,9 +11,13 @@ subsets:['latin']
 })
 
 export const metadata: Metadata = {
-  title: "Suraj Portolio NextJS",
-  description: "Portolio website build with NextJS",
+  title: "Suraj | NextJS",
+  description: "Portfolio website built with NextJS",
+  icons: {
+    icon: "/surajprofileport.png", // ✅ points to your image in public/
+  },
 };
+
 
 export default function RootLayout({
   children,
