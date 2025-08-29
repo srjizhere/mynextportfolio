@@ -1,5 +1,6 @@
 import React from 'react'
 import { BiEnvelope, BiMap, BiPhone } from 'react-icons/bi'
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -29,9 +30,37 @@ const Contact = () => {
               <p className='text-xl font-bold text-gray-400'>India</p>
             </div>
           </div>
+          <div className='flex items-center mt-8 space-x-3'>
+            <div className=' w-14 h-14 bg-blue-950/60 
+  rounded-full flex items-center justify-center
+   cursor-pointer flex-col hover:bg-blue-800 
+   transition-all duration-300'>
+              <FaFacebookF className='text-white w-6 h-6' />
+            </div>
+            <div className=' w-14 h-14 bg-blue-950/60 
+  rounded-full flex items-center justify-center
+   cursor-pointer flex-col hover:bg-blue-800 
+   transition-all duration-300'>
+              <FaLinkedinIn className='text-white w-6 h-6' />
+            </div>
+
+          </div>
 
 
-          
+        </div>
+        <div className='md:p-10 p-5 bg-[#131332] rounded-lg'>
+          <input type="text" placeholder='Name' className='px-4 py-3.5  bg-[#363659] text-white 
+          outline-none rounded-md w-full placeholder:text-white/70' />
+          <input type="email" placeholder='Email Address' className='px-4 py-3.5 bg-[#363659] text-white 
+          outline-none rounded-md w-full mt-6 placeholder:text-white/70' />
+          <input type="number" placeholder='Moblie Number' className='px-4 py-3.5 bg-[#363659] text-white 
+          outline-none rounded-md w-full mt-6 placeholder:text-white/70' />
+
+<textarea placeholder='Your Message' className='px-4 py-3.5 bg-[#363659] text-white 
+          outline-none rounded-md w-full mt-6 placeholder:text-white/70 h-[10-rem]' ></textarea>
+          <button className='mt-8 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300 cursor-pointer text-white rounded-full'>
+            Send Message
+          </button>
         </div>
       </div>
     </div>
