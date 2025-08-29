@@ -14,7 +14,9 @@ const Resume = () => {
                  text-white'>
                     My work <span className='text-cyan-200'>Experience</span>
                 </h1>
-                <div className='mt-10'>
+                <div className='mt-10'
+                 data-aos='zoom-in'
+                 data-aos-anchor-placement="top-center">
                     <ResumeCard Icon={FaCodepen} role='Full-Stack Developer'/> 
                     <ResumeCard Icon={FaReact} role='Front-End Developer'/> 
                     <ResumeCard Icon={BsDatabase} role='Backend-Stack Developer'/> 
